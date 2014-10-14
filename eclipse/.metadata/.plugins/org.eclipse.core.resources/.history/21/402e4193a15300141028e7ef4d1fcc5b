@@ -1,0 +1,9 @@
+package de.Laupetin.ElementalSouls.Blocks.SoulBlocks;
+
+public class SoulBlockFire extends SoulBlock {
+	
+	public SoulBlockFire() {
+		super();
+	}
+
+}

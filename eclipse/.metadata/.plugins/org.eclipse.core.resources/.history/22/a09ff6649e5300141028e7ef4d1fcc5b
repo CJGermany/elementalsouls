@@ -1,0 +1,14 @@
+package de.Laupetin.ElementalSouls.Blocks.SoulBlocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public abstract class SoulBlock extends Block {
+
+	protected SoulBlock() {
+		super(Material.iron);
+	}
+
+	
+	
+}

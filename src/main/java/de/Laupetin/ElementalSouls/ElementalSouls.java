@@ -11,6 +11,9 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.LanguageRegistry;
+import de.Laupetin.ElementalSouls.Blocks.SoulBlocks.SoulBlock;
+import de.Laupetin.ElementalSouls.Blocks.SoulBlocks.SoulBlockFire;
 import de.Laupetin.ElementalSouls.Proxies.ESCommonProxy;
 
 @Mod(modid = ElementalSouls.MODID, version = ElementalSouls.VERSION)
@@ -25,11 +28,23 @@ public class ElementalSouls
     @SidedProxy(clientSide = "de.Laupetin.ElementalSouls.Proxies.ESClientProxy", serverSide = "de.Laupetin.ElementalSouls.Proxies.ESCommonProxy")
     public static ESCommonProxy proxy;
     
+    /**
+     
+     BLOCKS
+     
+     */
+    public static SoulBlock vSoulBlockFire;
+    
+    
+    
+    
+    
+    
     
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-    	
+    	registerBlocks();
     }
     
     @EventHandler
@@ -43,6 +58,20 @@ public class ElementalSouls
     @EventHandler
     public void PostInit(FMLPostInitializationEvent event)
     {
+    	
+    }
+    
+    private void registerBlocks(){
+    	
+    	vSoulBlockFire = new SoulBlockFire();
+    	GameRegistry.registerBlock(vSoulBlockFire, "SoulBlockFire");
+    	
+    	
+    }
+    
+    private void registerItems(){
+    	
+    	
     	
     }
 }

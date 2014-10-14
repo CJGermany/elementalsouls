@@ -1,76 +1,43 @@
-[13:33:39] [main/INFO]: Setting user: Player400
-[13:33:39] [Client thread/INFO]: LWJGL Version: 2.9.1
-[13:33:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:ElementalSoulsMod
-[13:33:44] [Sound Library Loader/INFO]: Sound engine started
-[13:33:49] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[13:33:50] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[13:33:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:ElementalSoulsMod
-[13:33:50] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[13:33:50] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[13:33:51] [Sound Library Loader/INFO]: Sound engine started
-[13:34:09] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[13:34:09] [Server thread/INFO]: Generating keypair
-[13:34:09] [Server thread/INFO]: Converting map!
-[13:34:09] [Server thread/INFO]: Scanning folders...
-[13:34:09] [Server thread/INFO]: Total conversion count is 0
-[13:34:10] [Server thread/INFO]: Preparing start region for level 0
-[13:34:11] [Server thread/INFO]: Preparing spawn area: 8%
-[13:34:12] [Server thread/INFO]: Preparing spawn area: 25%
-[13:34:13] [Server thread/INFO]: Preparing spawn area: 41%
-[13:34:14] [Server thread/INFO]: Preparing spawn area: 59%
-[13:34:15] [Server thread/INFO]: Preparing spawn area: 75%
-[13:34:16] [Server thread/INFO]: Preparing spawn area: 98%
-[13:34:16] [Server thread/INFO]: Changing view distance to 12, from 10
-[13:34:16] [Server thread/INFO]: Player400[local:E:bda8f8b8] logged in with entity id 96 at (-207.5, 69.0, 204.5)
-[13:34:16] [Server thread/INFO]: Player400 joined the game
-[13:34:19] [Server thread/INFO]: Player400 has just earned the achievement [Taking Inventory]
-[13:34:19] [Client thread/INFO]: [CHAT] Player400 has just earned the achievement [Taking Inventory]
-[13:34:19] [Client thread/INFO]: Warning: Clientside chunk ticking took 290 ms
-[13:34:21] [Client thread/INFO]: Warning: Clientside chunk ticking took 374 ms
-[13:34:21] [Client thread/INFO]: Warning: Clientside chunk ticking took 730 ms
-[13:34:22] [Client thread/INFO]: Warning: Clientside chunk ticking took 511 ms
-[13:34:22] [Client thread/INFO]: Warning: Clientside chunk ticking took 181 ms
-[13:34:25] [Client thread/INFO]: Warning: Clientside chunk ticking took 462 ms
-[13:34:29] [Client thread/INFO]: [CHAT] You do not have permission to use this command
-[13:34:30] [Server thread/INFO]: Saving and pausing game...
-[13:34:30] [Server thread/INFO]: Saving chunks for level 'New Worl'/Overworld
-[13:34:31] [Server thread/INFO]: Saving chunks for level 'New Worl'/Nether
-[13:34:31] [Server thread/INFO]: Saving chunks for level 'New Worl'/The End
-[13:34:35] [Server thread/INFO]: Stopping server
-[13:34:35] [Server thread/INFO]: Saving players
-[13:34:35] [Server thread/INFO]: Saving worlds
-[13:34:35] [Server thread/INFO]: Saving chunks for level 'New Worl'/Overworld
-[13:34:35] [Server thread/INFO]: Saving chunks for level 'New Worl'/Nether
-[13:34:35] [Server thread/INFO]: Saving chunks for level 'New Worl'/The End
-[13:34:39] [Client thread/INFO]: Deleting level New Worl
-[13:34:39] [Client thread/INFO]: Attempt 1...
-[13:34:47] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[13:34:47] [Server thread/INFO]: Generating keypair
-[13:34:47] [Server thread/INFO]: Converting map!
-[13:34:47] [Server thread/INFO]: Scanning folders...
-[13:34:47] [Server thread/INFO]: Total conversion count is 0
-[13:34:47] [Server thread/INFO]: Preparing start region for level 0
-[13:34:48] [Server thread/INFO]: Preparing spawn area: 20%
-[13:34:49] [Server thread/INFO]: Preparing spawn area: 45%
-[13:34:50] [Server thread/INFO]: Preparing spawn area: 65%
-[13:34:51] [Server thread/INFO]: Preparing spawn area: 85%
-[13:34:52] [Server thread/INFO]: Changing view distance to 12, from 10
-[13:34:52] [Server thread/INFO]: Player400[local:E:6097581f] logged in with entity id 4491 at (2.5, 66.0, 249.5)
-[13:34:52] [Server thread/INFO]: Player400 joined the game
-[13:34:59] [Server thread/INFO]: Player400 has just earned the achievement [Taking Inventory]
-[13:34:59] [Client thread/INFO]: [CHAT] Player400 has just earned the achievement [Taking Inventory]
-[13:35:13] [Server thread/INFO]: Saving and pausing game...
-[13:35:13] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[13:35:13] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[13:35:13] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[13:35:39] [Server thread/INFO]: Saving and pausing game...
-[13:35:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[13:35:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[13:35:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[13:35:40] [Server thread/INFO]: Stopping server
-[13:35:40] [Server thread/INFO]: Saving players
-[13:35:40] [Server thread/INFO]: Saving worlds
-[13:35:40] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[13:35:40] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[13:35:40] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[13:35:41] [Client thread/INFO]: Stopping!
+[15:31:33] [main/INFO]: Setting user: Player618
+[15:31:34] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:31:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Elemental Souls
+[15:31:38] [Sound Library Loader/INFO]: Sound engine started
+[15:31:39] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:31:39] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:31:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Elemental Souls
+[15:31:39] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:31:39] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:31:40] [Sound Library Loader/INFO]: Sound engine started
+[15:31:42] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[15:31:42] [Server thread/INFO]: Generating keypair
+[15:31:43] [Server thread/INFO]: Preparing start region for level 0
+[15:31:44] [Server thread/INFO]: Changing view distance to 12, from 10
+[15:31:44] [Server thread/INFO]: Player618[local:E:3fd15412] logged in with entity id 190 at (3.551904939248563, 66.0, 250.9932004111646)
+[15:31:44] [Server thread/INFO]: Player618 joined the game
+[15:32:07] [Server thread/INFO]: [Player618: Game rule has been updated]
+[15:32:07] [Client thread/INFO]: [CHAT] Game rule has been updated
+[15:32:13] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
+[15:32:13] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
+[15:32:14] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
+[15:32:15] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
+[15:32:17] [Server thread/INFO]: [Player618: Game rule has been updated]
+[15:32:17] [Client thread/INFO]: [CHAT] Game rule has been updated
+[15:32:22] [Client thread/INFO]: [CHAT] doMobLoot, doMobSpawning
+[15:32:22] [Client thread/INFO]: [CHAT] doMobLoot, doMobSpawning
+[15:32:30] [Server thread/INFO]: [Player618: Game rule has been updated]
+[15:32:30] [Client thread/INFO]: [CHAT] Game rule has been updated
+[15:32:35] [Server thread/INFO]: [Player618: Game rule has been updated]
+[15:32:35] [Client thread/INFO]: [CHAT] Game rule has been updated
+[15:32:38] [Server thread/INFO]: [Player618: Set the time to 13000]
+[15:32:38] [Client thread/INFO]: [CHAT] Set the time to 13000
+[15:33:32] [Server thread/INFO]: Saving and pausing game...
+[15:33:32] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:33:33] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:33:33] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:33:33] [Server thread/INFO]: Stopping server
+[15:33:33] [Server thread/INFO]: Saving players
+[15:33:33] [Server thread/INFO]: Saving worlds
+[15:33:33] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:33:33] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:33:33] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:33:34] [Client thread/INFO]: Stopping!

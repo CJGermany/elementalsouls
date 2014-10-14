@@ -1,0 +1,7 @@
+package de.Laupetin.ElementalSouls.Blocks.SoulBlocks;
+
+public abstract class SoulBlock {
+
+	
+	
+}

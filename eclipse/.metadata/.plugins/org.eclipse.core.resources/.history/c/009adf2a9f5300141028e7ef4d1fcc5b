@@ -1,0 +1,17 @@
+package de.Laupetin.ElementalSouls.Blocks.SoulBlocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.MapColor;
+import net.minecraft.block.material.Material;
+
+public abstract class SoulBlock extends Block {
+
+	public static Material soulMaterial = new Material (MapColor.quartzColor);
+	
+	protected SoulBlock() {
+		super(soulMaterial);
+	}
+
+	
+	
+}

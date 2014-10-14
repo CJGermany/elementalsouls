@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ElementalSoulsMod",
+  "name": "Elemental Souls",
+  "description": "Explore the magic behind the elements.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Laupetin"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
