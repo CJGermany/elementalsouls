@@ -15,7 +15,12 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
 <fullyQualifiedTypeName name="de.Laupetin.ElementalSouls.Blocks.SoulBlocks.SoulBlock"/>
 <fullyQualifiedTypeName name="de.Laupetin.ElementalSouls.Blocks.SoulBlocks.SoulBlockFire"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.registry.LanguageRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="scala.Char"/>
 <fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="de.Laupetin.ElementalSouls.Items.ItemSoul"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="de.Laupetin.ElementalSouls.ElementalSouls"/>
+<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,37 @@
+package de.Laupetin.ElementalSouls.Items;
+
+import de.Laupetin.ElementalSouls.ElementalSouls;
+import net.minecraft.item.Item;
+
+public class ItemSoul extends Item {
+
+	public ItemSoul(char elementchar){
+	
+		setCreativeTab(ElementalSouls.tab);
+		
+		switch(elementchar){
+		case 'f':
+			setUnlocalizedName("Item_Soul_Fire");
+			setTextureName("Soul_Fire");
+			break;
+			
+		case 'w':
+			setUnlocalizedName("Item_Soul_Water");
+			setTextureName("Soul_Water");
+			break;
+			
+		case 'e':
+			setUnlocalizedName("Item_Soul_Earth");
+			setTextureName("Soul_Earth");
+			break;
+			
+		case 'a':
+			setUnlocalizedName("Item_Soul_Air");
+			setTextureName("Soul_Air");
+			break;
+			
+		}
+	
+	}
+	
+}

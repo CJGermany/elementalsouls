@@ -3,6 +3,7 @@ package de.Laupetin.ElementalSouls.Blocks.SoulBlocks;
 import java.util.Random;
 
 import cpw.mods.fml.common.registry.GameRegistry;
+import de.Laupetin.ElementalSouls.ElementalSouls;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
@@ -23,6 +24,7 @@ public abstract class SoulBlock extends Block {
 		setLightLevel(1f);
 		setTickRandomly(true);
 		setBlockTextureName("ElementalSouls:" + getUnlocalizedName().replaceFirst("tile.", ""));
+		setCreativeTab(ElementalSouls.tab);
 	}
 	
 	@Override

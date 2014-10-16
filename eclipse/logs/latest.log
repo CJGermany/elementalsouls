@@ -1,43 +1,25 @@
-[15:31:33] [main/INFO]: Setting user: Player618
-[15:31:34] [Client thread/INFO]: LWJGL Version: 2.9.1
-[15:31:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Elemental Souls
-[15:31:38] [Sound Library Loader/INFO]: Sound engine started
-[15:31:39] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:31:39] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:31:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Elemental Souls
-[15:31:39] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:31:39] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:31:40] [Sound Library Loader/INFO]: Sound engine started
-[15:31:42] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[15:31:42] [Server thread/INFO]: Generating keypair
-[15:31:43] [Server thread/INFO]: Preparing start region for level 0
-[15:31:44] [Server thread/INFO]: Changing view distance to 12, from 10
-[15:31:44] [Server thread/INFO]: Player618[local:E:3fd15412] logged in with entity id 190 at (3.551904939248563, 66.0, 250.9932004111646)
-[15:31:44] [Server thread/INFO]: Player618 joined the game
-[15:32:07] [Server thread/INFO]: [Player618: Game rule has been updated]
-[15:32:07] [Client thread/INFO]: [CHAT] Game rule has been updated
-[15:32:13] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
-[15:32:13] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
-[15:32:14] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
-[15:32:15] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
-[15:32:17] [Server thread/INFO]: [Player618: Game rule has been updated]
-[15:32:17] [Client thread/INFO]: [CHAT] Game rule has been updated
-[15:32:22] [Client thread/INFO]: [CHAT] doMobLoot, doMobSpawning
-[15:32:22] [Client thread/INFO]: [CHAT] doMobLoot, doMobSpawning
-[15:32:30] [Server thread/INFO]: [Player618: Game rule has been updated]
-[15:32:30] [Client thread/INFO]: [CHAT] Game rule has been updated
-[15:32:35] [Server thread/INFO]: [Player618: Game rule has been updated]
-[15:32:35] [Client thread/INFO]: [CHAT] Game rule has been updated
-[15:32:38] [Server thread/INFO]: [Player618: Set the time to 13000]
-[15:32:38] [Client thread/INFO]: [CHAT] Set the time to 13000
-[15:33:32] [Server thread/INFO]: Saving and pausing game...
-[15:33:32] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:33:33] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:33:33] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:33:33] [Server thread/INFO]: Stopping server
-[15:33:33] [Server thread/INFO]: Saving players
-[15:33:33] [Server thread/INFO]: Saving worlds
-[15:33:33] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:33:33] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:33:33] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:33:34] [Client thread/INFO]: Stopping!
+[17:26:56] [main/INFO]: Setting user: Player541
+[17:26:56] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:26:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Elemental Souls
+[17:27:00] [Sound Library Loader/INFO]: Sound engine started
+[17:27:01] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:27:01] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:27:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Elemental Souls
+[17:27:01] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:27:01] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:27:02] [Sound Library Loader/INFO]: Sound engine started
+[17:27:04] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:27:04] [Server thread/INFO]: Generating keypair
+[17:27:04] [Server thread/INFO]: Preparing start region for level 0
+[17:27:05] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:27:05] [Server thread/INFO]: Player541[local:E:376fde78] logged in with entity id 69 at (1.4583215495477253, 66.0, 243.16312639198645)
+[17:27:05] [Server thread/INFO]: Player541 joined the game
+[17:27:09] [Server thread/INFO]: Player541 has just earned the achievement [Taking Inventory]
+[17:27:10] [Client thread/INFO]: [CHAT] Player541 has just earned the achievement [Taking Inventory]
+[17:28:33] [Client thread/INFO]: Stopping!
+[17:28:33] [Server thread/INFO]: Stopping server
+[17:28:33] [Server thread/INFO]: Saving players
+[17:28:33] [Server thread/INFO]: Saving worlds
+[17:28:33] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:28:33] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:28:33] [Server thread/INFO]: Saving chunks for level 'New World'/The End

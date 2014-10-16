@@ -1,0 +1,4 @@
+aufladbare energiezellen (phiolen)
+skillsystem
+zauber durch perlen (am Gürtel?)
+chirurgtisch für einpflanzen von den perlen (code vom bett benutzen, gui?)

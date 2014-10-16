@@ -1,0 +1,14 @@
+package de.Laupetin.ElementalSouls.Items;
+
+import scala.Char;
+import net.minecraft.item.Item;
+
+public class ItemSoul extends Item {
+
+	public ItemSoul(Char elementchar){
+	
+		
+	
+	}
+	
+}

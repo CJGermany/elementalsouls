@@ -11,9 +11,8 @@ public class SoulBlockFire extends SoulBlock {
 
 	public SoulBlockFire(){
 		super();
-		this.setBlockName("SoulBlockFire");
-		setCreativeTab(CreativeTabs.tabBlock);
-		setBlockTextureName("ElementalSouls:SoulBlockFire");
+		this.setBlockName("Soul_Block_Fire");
+		setBlockTextureName("ElementalSouls:Soul_Block_Fire");
 	}
 
 	@Override
