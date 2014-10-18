@@ -1,4 +1,5 @@
 #Ignore everything but src
+$ cat .gitignore
 /*
 !/src
 !.gitignore
