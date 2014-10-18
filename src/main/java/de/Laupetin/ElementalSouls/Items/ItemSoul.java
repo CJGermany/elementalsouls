@@ -45,7 +45,8 @@ public class ItemSoul extends Item {
 	@Override
 	public boolean onEntityItemUpdate(EntityItem entityItem) {
 		Random r = new Random();
-		if (r.nextInt(20) + 1 <= 3){
+		
+		if (r.nextInt(20) + 1 <= 3 && Minecraft.getMinecraft().thePlayer != null){
 			switch (type){
 			
 			case 'f':
