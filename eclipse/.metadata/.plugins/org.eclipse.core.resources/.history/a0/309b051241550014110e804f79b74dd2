@@ -1,5 +1,0 @@
-package de.Laupetin.ElementalSouls.Blocks.SoulBlocks;
-
-public class SoulBlockWater extends SoulBlock {
-
-}

@@ -1,11 +1,11 @@
 #Ignore everything but src
-.git
-.gradle
-.settings
-bin
-build
-eclipse
-gradle
+.git/*
+.gradle/*
+.settings/*
+bin/*
+build/*
+eclipse/*
+gradle/*
 .classpath
 .gitattributes
 .project
