@@ -2,5 +2,6 @@ aufladbare energiezellen (phiolen)
 skillsystem
 zauber durch perlen (am Gürtel?)
 chirurgtisch für einpflanzen von den perlen (code vom bett benutzen, gui?)
-test-idee
-weitere test-idee
+rüstung: 
+ - setbonus: wenn man 4 gleichartige rüstungsteile trägt werden entsprechende zauber verstärkt
+ - immunität gegen aura von soul catcher blöcken oder so
