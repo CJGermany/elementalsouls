@@ -53,15 +53,15 @@ public class ItemSoul extends Item {
 				break;
 				
 			case 'w':
-				Minecraft.getMinecraft().thePlayer.worldObj.spawnParticle("reddust", entityItem.posX, entityItem.posY + 0.1, entityItem.posZ, 0, 0, 1);
+				Minecraft.getMinecraft().thePlayer.worldObj.spawnParticle("reddust", entityItem.posX, entityItem.posY + 0.1, entityItem.posZ, -1, 0, 1);
 				break;
 				
 			case 'e':
-				Minecraft.getMinecraft().thePlayer.worldObj.spawnParticle("reddust", entityItem.posX, entityItem.posY + 0.1, entityItem.posZ, 0, 1, 0);
+				Minecraft.getMinecraft().thePlayer.worldObj.spawnParticle("reddust", entityItem.posX, entityItem.posY + 0.1, entityItem.posZ, -1, 1, 0);
 				break;
 				
 			case 'a':
-				Minecraft.getMinecraft().thePlayer.worldObj.spawnParticle("reddust", entityItem.posX, entityItem.posY + 0.1, entityItem.posZ, 1, 1, 1);
+				Minecraft.getMinecraft().thePlayer.worldObj.spawnParticle("reddust", entityItem.posX, entityItem.posY + 0.1, entityItem.posZ, 0, 1, 1);
 				break;
 				
 			}
