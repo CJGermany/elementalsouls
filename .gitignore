@@ -1,8 +1,17 @@
 #Ignore everything but src
-$ cat .gitignore
-/*
-!/src
-!.gitignore
+.git
+.gradle
+.settings
+bin
+build
+eclipse
+gradle
+.classpath
+.gitattributes
+.project
+gradlew
+gradlew.bat
+Start.bat
 
 # Windows image file caches
 Thumbs.db
