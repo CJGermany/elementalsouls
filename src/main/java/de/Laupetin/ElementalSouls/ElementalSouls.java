@@ -1,11 +1,13 @@
 package de.Laupetin.ElementalSouls;
 
+import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.util.EnumHelper;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -78,6 +80,8 @@ public class ElementalSouls
 
      */
     public static CreativeTabs tab;
+    private static EnumHelper enumhelp;
+    public static ArmorMaterial armorMaterialSoul;
     
     
     
@@ -91,6 +95,10 @@ public class ElementalSouls
 				return vSoulFire;
 			}
 		};
+		
+		enumhelp = new EnumHelper();
+		armorMaterialSoul = enumhelp.addArmorMaterial("SOUL", 50, new int[]{2, 6, 5, 2}, 80); //DIAMOND{3, 8, 6, 3} 33
+		
 		registerItems();
 		registerBlocks();
 		 
@@ -135,40 +143,40 @@ public class ElementalSouls
 		vSoulAir = new ItemSoul('a');
 		GameRegistry.registerItem(vSoulAir, "SoulAir");
 
-		vArmorHelmetFire = new ArmorFire(ArmorMaterial.DIAMOND,0);
+		vArmorHelmetFire = new ArmorFire(armorMaterialSoul,0);
 		GameRegistry.registerItem(vArmorHelmetFire, "ES_Armor_Helmet_Fire");
-		vArmorChestplateFire = new ArmorFire(ArmorMaterial.DIAMOND,1);
+		vArmorChestplateFire = new ArmorFire(armorMaterialSoul,1);
 		GameRegistry.registerItem(vArmorChestplateFire, "ES_Armor_Chestplate_Fire");
-		vArmorLeggingsFire = new ArmorFire(ArmorMaterial.DIAMOND,2);
+		vArmorLeggingsFire = new ArmorFire(armorMaterialSoul,2);
 		GameRegistry.registerItem(vArmorLeggingsFire, "ES_Armor_Leggings_Fire");
-		vArmorBootsFire = new ArmorFire(ArmorMaterial.DIAMOND,3);
+		vArmorBootsFire = new ArmorFire(armorMaterialSoul,3);
 		GameRegistry.registerItem(vArmorBootsFire, "ES_Armor_Boots_Fire");
 		
-		vArmorHelmetWater = new ArmorWater(ArmorMaterial.DIAMOND,0);
+		vArmorHelmetWater = new ArmorWater(armorMaterialSoul,0);
 		GameRegistry.registerItem(vArmorHelmetWater, "ES_Armor_Helmet_Water");
-		vArmorChestplateWater = new ArmorWater(ArmorMaterial.DIAMOND,1);
+		vArmorChestplateWater = new ArmorWater(armorMaterialSoul,1);
 		GameRegistry.registerItem(vArmorChestplateWater, "ES_Armor_Chestplate_Water");
-		vArmorLeggingsWater = new ArmorWater(ArmorMaterial.DIAMOND,2);
+		vArmorLeggingsWater = new ArmorWater(armorMaterialSoul,2);
 		GameRegistry.registerItem(vArmorLeggingsWater, "ES_Armor_Leggings_Water");
-		vArmorBootsWater = new ArmorWater(ArmorMaterial.DIAMOND,3);
+		vArmorBootsWater = new ArmorWater(armorMaterialSoul,3);
 		GameRegistry.registerItem(vArmorBootsWater, "ES_Armor_Boots_Water");
 		
-		vArmorHelmetAir = new ArmorAir(ArmorMaterial.DIAMOND,0);
+		vArmorHelmetAir = new ArmorAir(armorMaterialSoul,0);
 		GameRegistry.registerItem(vArmorHelmetAir, "ES_Armor_Helmet_Air");
-		vArmorChestplateAir = new ArmorAir(ArmorMaterial.DIAMOND,1);
+		vArmorChestplateAir = new ArmorAir(armorMaterialSoul,1);
 		GameRegistry.registerItem(vArmorChestplateAir, "ES_Armor_Chestplate_Air");
-		vArmorLeggingsAir = new ArmorAir(ArmorMaterial.DIAMOND,2);
+		vArmorLeggingsAir = new ArmorAir(armorMaterialSoul,2);
 		GameRegistry.registerItem(vArmorLeggingsAir, "ES_Armor_Leggings_Air");
-		vArmorBootsAir = new ArmorAir(ArmorMaterial.DIAMOND,3);
+		vArmorBootsAir = new ArmorAir(armorMaterialSoul,3);
 		GameRegistry.registerItem(vArmorBootsAir, "ES_Armor_Boots_Air");
 		
-		vArmorHelmetEarth = new ArmorEarth(ArmorMaterial.DIAMOND,0);
+		vArmorHelmetEarth = new ArmorEarth(armorMaterialSoul,0);
 		GameRegistry.registerItem(vArmorHelmetEarth, "ES_Armor_Helmet_Earth");
-		vArmorChestplateEarth = new ArmorEarth(ArmorMaterial.DIAMOND,1);
+		vArmorChestplateEarth = new ArmorEarth(armorMaterialSoul,1);
 		GameRegistry.registerItem(vArmorChestplateEarth, "ES_Armor_Chestplate_Earth");
-		vArmorLeggingsEarth = new ArmorEarth(ArmorMaterial.DIAMOND,2);
+		vArmorLeggingsEarth = new ArmorEarth(armorMaterialSoul,2);
 		GameRegistry.registerItem(vArmorLeggingsEarth, "ES_Armor_Leggings_Earth");
-		vArmorBootsEarth = new ArmorEarth(ArmorMaterial.DIAMOND,3);
+		vArmorBootsEarth = new ArmorEarth(armorMaterialSoul,3);
 		GameRegistry.registerItem(vArmorBootsEarth, "ES_Armor_Boots_Earth");
     	
     	
