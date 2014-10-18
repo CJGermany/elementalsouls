@@ -4,3 +4,8 @@ zauber durch perlen (am Gürtel?)
 chirurgtisch für einpflanzen von den perlen (code vom bett benutzen, gui?)
 test-idee
 weitere test-idee
+
+Armor:
+    -Schützt vor Schadensaura von späteren Maschinen
+    -Verstärkt Zauber vom eigenen Element
+    -Aufladen der Manabar des Elements.
