@@ -14,11 +14,16 @@ public abstract class ElementalArmor extends ItemArmor {
 
 	public abstract String getElement();
 	
-	// Welche Ladung wird regeneriert?
-	public int getBaseManaRegen(short amount){
+	public float getBaseManaRegen(short amount){
+		// amount: anzahl der aktiven rüstungsteile
 		
-	
-		return 0;
+		return (((2^amount)/(amount+1))*amount)*2;
+		
+		// 0: 0
+		// 1: 2
+		// 2: 5.3
+		// 3: 12
+		// 4: 25.6
 	}
 	
 }
