@@ -1,0 +1,17 @@
+aufladbare energiezellen (phiolen)
+skillsystem
+zauber durch perlen (am Gürtel?)
+chirurgtisch für einpflanzen von den perlen (code vom bett benutzen, gui?)
+<<<<<<< HEAD
+rüstung: 
+ - setbonus: wenn man 4 gleichartige rüstungsteile trägt werden entsprechende zauber verstärkt
+ - immunität gegen aura von soul catcher blöcken oder so
+=======
+test-idee
+weitere test-idee
+
+Armor:
+    -Schützt vor Schadensaura von späteren Maschinen
+    -Verstärkt Zauber vom eigenen Element
+    -Aufladen der Manabar des Elements.
+>>>>>>> origin/master
