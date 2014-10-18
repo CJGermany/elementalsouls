@@ -14,5 +14,20 @@ item.armor_chestplate_fire.name=Fire Soul Chestplate
 item.armor_leggings_fire.name=Fire Soul Leggings
 item.armor_boots_fire.name=Fire Soul Boots
 
+item.armor_helmet_water.name=Water Soul Helmet
+item.armor_chestplate_water.name=Water Soul Chestplate
+item.armor_leggings_water.name=Water Soul Leggings
+item.armor_boots_water.name=Water Soul Boots
+
+item.armor_helmet_air.name=Air Soul Helmet
+item.armor_chestplate_air.name=Air Soul Chestplate
+item.armor_leggings_air.name=Air Soul Leggings
+item.armor_boots_air.name=Air Soul Boots
+
+item.armor_helmet_earth.name=Earth Soul Helmet
+item.armor_chestplate_earth.name=Earth Soul Chestplate
+item.armor_leggings_earth.name=Earth Soul Leggings
+item.armor_boots_earth.name=Earth Soul Boots
+
 
 itemGroup.tabElementalSouls=Elemental Souls

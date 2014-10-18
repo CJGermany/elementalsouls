@@ -13,4 +13,19 @@ item.armor_chestplate_fire.name=Feuerseelenbrustpanzer
 item.armor_leggings_fire.name=Feuerseelenbeinschutz
 item.armor_boots_fire.name=Feuerseelenstiefel
 
+item.armor_helmet_air.name=Luftseelenhelm
+item.armor_chestplate_air.name=Luftseelenbrustpanzer
+item.armor_leggings_air.name=Luftseelenbeinschutz
+item.armor_boots_air.name=Luftseelenstiefel
+
+item.armor_helmet_water.name=Wasserseelenhelm
+item.armor_chestplate_water.name=Wasserseelenbrustpanzer
+item.armor_leggings_water.name=Wasserseelenbeinschutz
+item.armor_boots_water.name=Wasserseelenstiefel
+
+item.armor_helmet_earth.name=Erdseelenhelm
+item.armor_chestplate_earth.name=Erdseelenbrustpanzer
+item.armor_leggings_earth.name=Erdseelenbeinschutz
+item.armor_boots_earth.name=Erdseelenstiefel
+
 itemGroup.tabElementalSouls=Elemental Souls
