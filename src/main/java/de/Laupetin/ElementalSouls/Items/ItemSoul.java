@@ -2,10 +2,15 @@ package de.Laupetin.ElementalSouls.Items;
 
 import java.util.Random;
 
+import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.common.Loader;
+import cpw.mods.fml.relauncher.Side;
 import de.Laupetin.ElementalSouls.ElementalSouls;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.Item;
+import net.minecraft.server.MinecraftServer;
+import net.minecraftforge.transformers.ForgeAccessTransformer;
 
 public class ItemSoul extends Item {
 	
@@ -42,34 +47,41 @@ public class ItemSoul extends Item {
 	
 	}
 	
+	
+	
 	@Override
 	public boolean onEntityItemUpdate(EntityItem entityItem) {
 		Random r = new Random();
 		
-		if (r.nextInt(20) + 1 <= 3 && Minecraft.getMinecraft().thePlayer != null){
-			switch (type){
+		if (FMLCommonHandler.instance().getSide() == Side.CLIENT){
+		
+			if (r.nextInt(20) + 1 <= 3 && Minecraft.getMinecraft().thePlayer != null){
+				switch (type){
 			
-			case 'f':
-				Minecraft.getMinecraft().thePlayer.worldObj.spawnParticle("reddust", entityItem.posX, entityItem.posY + 0.1, entityItem.posZ, 1, 0, 0);
-				break;
+				case 'f':
+					Minecraft.getMinecraft().thePlayer.worldObj.spawnParticle("reddust", entityItem.posX, entityItem.posY + 0.1, entityItem.posZ, 1, 0, 0);
+					break;
 				
-			case 'w':
-				Minecraft.getMinecraft().thePlayer.worldObj.spawnParticle("reddust", entityItem.posX, entityItem.posY + 0.1, entityItem.posZ, -1, 0, 1);
-				break;
+				case 'w':
+					Minecraft.getMinecraft().thePlayer.worldObj.spawnParticle("reddust", entityItem.posX, entityItem.posY + 0.1, entityItem.posZ, -1, 0, 1);
+					break;
 				
-			case 'e':
-				Minecraft.getMinecraft().thePlayer.worldObj.spawnParticle("reddust", entityItem.posX, entityItem.posY + 0.1, entityItem.posZ, -1, 1, 0);
-				break;
+				case 'e':
+					Minecraft.getMinecraft().thePlayer.worldObj.spawnParticle("reddust", entityItem.posX, entityItem.posY + 0.1, entityItem.posZ, -1, 1, 0);
+					break;
 				
-			case 'a':
-				Minecraft.getMinecraft().thePlayer.worldObj.spawnParticle("reddust", entityItem.posX, entityItem.posY + 0.1, entityItem.posZ, 0, 1, 1);
-				break;
+				case 'a':
+					Minecraft.getMinecraft().thePlayer.worldObj.spawnParticle("reddust", entityItem.posX, entityItem.posY + 0.1, entityItem.posZ, 0, 1, 1);
+					break;
 				
+				}
+			
 			}
-			
 		}
 		return super.onEntityItemUpdate(entityItem);
 	}
+	
+	
 	
 	
 }
