@@ -1,3 +1,16 @@
+initialisation:
+ - 4 elemente (wasser, feuer, erde, luft)
+ - können bekommen werden, indem man sich seelen (perlen?) implantiert
+   - implantate können auf einer table ähnlich einem bett gemacht werden
+ - sobald man eines der elemente bekommen hat, wird ein (kleiner) ladungsbalken irgendwo im gui eingeblendet
+   - zuanfangs leer, kann aber aufgeladen werden (siehe unten)
+ - beim erlernen eines elements fähigkeiten auflisten
+ 
+ skills:
+  - erlernen von fähigkeiten (basierend auf den elementen)
+  - erlernen kostet XP (oder?)
+  - fähigkeiten (= zauber) verbrauchen ladung (siehe unten)
+
 ladung:
  - 4 seperate ladungen (je element ein ladungsbalken im gui)
  - vielleicht rechts unten neben der inventarleiste eingeblendet?
