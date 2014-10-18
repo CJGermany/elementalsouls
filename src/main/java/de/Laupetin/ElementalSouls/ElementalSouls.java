@@ -7,7 +7,9 @@ import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.util.EnumHelper;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -19,6 +21,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 import de.Laupetin.ElementalSouls.Armor.*;
 import de.Laupetin.ElementalSouls.Blocks.SoulBlocks.*;
+import de.Laupetin.ElementalSouls.Event.*;
 import de.Laupetin.ElementalSouls.Items.*;
 import de.Laupetin.ElementalSouls.Proxies.ESCommonProxy;
 
@@ -95,7 +98,7 @@ public class ElementalSouls
 				return vSoulFire;
 			}
 		};
-		
+		proxy.initialize();
 		enumhelp = new EnumHelper();
 		armorMaterialSoul = enumhelp.addArmorMaterial("SOUL", 50, new int[]{2, 6, 5, 2}, 80); //DIAMOND{3, 8, 6, 3} 33
 		
@@ -116,6 +119,9 @@ public class ElementalSouls
     @EventHandler
     public void PostInit(FMLPostInitializationEvent event)
     {
+    	ESEventHandler eventhandle = new ESEventHandler();
+    	MinecraftForge.EVENT_BUS.register(eventhandle);
+    	//FMLCommonHandler.instance().bus().register(eventhandle);
     	
     }
     

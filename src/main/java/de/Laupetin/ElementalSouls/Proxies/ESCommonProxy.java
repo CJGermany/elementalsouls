@@ -7,5 +7,10 @@ public class ESCommonProxy {
 		
 		
 	}
+
+	public void initialize() {
+		
+		
+	}
 	
 }
