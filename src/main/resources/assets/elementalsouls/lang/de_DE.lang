@@ -1,4 +1,16 @@
-tile.Soul_Block_Fire.name=Feuer Seelenblock
-tile.Soul_Block_Water.name=Wasser Seelenblock
-tile.Soul_Block_Earth.name=Erd Seelenblock
-tile.Soul_Block_Air.name=Luft Seelenblock
+tile.Soul_Block_Fire.name=Feuerseelenblock
+tile.Soul_Block_Water.name=Wasserseelenblock
+tile.Soul_Block_Earth.name=Erdseelenblock
+tile.Soul_Block_Air.name=Luftseelenblock
+
+item.Item_Soul_Fire.name=Feuerseele
+item.Item_Soul_Water.name=Wasserseele
+item.Item_Soul_Earth.name=Erdseele
+item.Item_Soul_Air.name=Luftseele
+
+item.armor_helmet_fire.name=Feuerseelenhelm
+item.armor_chestplate_fire.name=Feuerseelenbrustpanzer
+item.armor_leggings_fire.name=Feuerseelenbeinschutz
+item.armor_boots_fire.name=Feuerseelenstiefel
+
+itemGroup.tabElementalSouls=Elemental Souls

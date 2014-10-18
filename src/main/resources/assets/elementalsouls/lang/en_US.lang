@@ -9,10 +9,10 @@ item.Item_Soul_Water.name=Water Soul
 item.Item_Soul_Earth.name=Earth Soul
 item.Item_Soul_Air.name=Air Soul
 
-item.armor_helmet_fire=Fire Soul Helmet
-item.armor_chestplate_fire=Fire Soul Chestplate
-item.armor_leggings_fire=Fire Soul Leggings
-item.armor_boots_fire=Fire Soul Boots
+item.armor_helmet_fire.name=Fire Soul Helmet
+item.armor_chestplate_fire.name=Fire Soul Chestplate
+item.armor_leggings_fire.name=Fire Soul Leggings
+item.armor_boots_fire.name=Fire Soul Boots
 
 
 itemGroup.tabElementalSouls=Elemental Souls
