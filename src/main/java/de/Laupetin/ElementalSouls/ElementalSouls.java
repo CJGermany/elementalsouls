@@ -4,6 +4,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemStack;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -14,6 +15,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
+import de.Laupetin.ElementalSouls.Armor.*;
 import de.Laupetin.ElementalSouls.Blocks.SoulBlocks.*;
 import de.Laupetin.ElementalSouls.Items.*;
 import de.Laupetin.ElementalSouls.Proxies.ESCommonProxy;
@@ -49,6 +51,11 @@ public class ElementalSouls
     public static ItemSoul vSoulWater;
     public static ItemSoul vSoulEarth;
     public static ItemSoul vSoulAir;
+
+    public static ElementalArmor vArmorHelmetFire;
+    public static ElementalArmor vArmorChestplateFire;
+    public static ElementalArmor vArmorLeggingsFire;
+    public static ElementalArmor vArmorBootsFire;
     
     
     
@@ -114,13 +121,21 @@ public class ElementalSouls
 		GameRegistry.registerItem(vSoulEarth, "SoulEarth");
 		vSoulAir = new ItemSoul('a');
 		GameRegistry.registerItem(vSoulAir, "SoulAir");
+
+		vArmorHelmetFire = new Armor_Fire(ArmorMaterial.DIAMOND,0);
+		GameRegistry.registerItem(vArmorHelmetFire, "ES_Armor_Helmet_Fire");
+		vArmorChestplateFire = new Armor_Fire(ArmorMaterial.DIAMOND,1);
+		GameRegistry.registerItem(vArmorChestplateFire, "ES_Armor_Chestplate_Fire");
+		vArmorLeggingsFire = new Armor_Fire(ArmorMaterial.DIAMOND,2);
+		GameRegistry.registerItem(vArmorLeggingsFire, "ES_Armor_Leggings_Fire");
+		vArmorBootsFire = new Armor_Fire(ArmorMaterial.DIAMOND,3);
+		GameRegistry.registerItem(vArmorBootsFire, "ES_Armor_Boots_Fire");
     	
     	
     }
     
     private void registerRecipes(){
     	/**GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond,1), Blocks.dirt, Blocks.dirt);*/
-    	
     
     }
 }
