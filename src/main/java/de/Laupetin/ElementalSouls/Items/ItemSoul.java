@@ -17,7 +17,7 @@ public class ItemSoul extends Item {
 		
 		switch(elementchar){
 		case 'f':
-			setUnlocalizedName("Item_Soul_Fire");
+			setUnlocalizedName("Item_Soul_Fire"); 
 			setTextureName("ElementalSouls:Soul_Fire");
 			break;
 			
