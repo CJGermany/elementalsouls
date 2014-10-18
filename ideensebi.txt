@@ -1,9 +1,18 @@
-aufladbare energiezellen (phiolen)
-skillsystem
-zauber durch perlen (am Gürtel?)
-chirurgtisch für einpflanzen von den perlen (code vom bett benutzen, gui?)
+ladung:
+ - 4 seperate ladungen (je element ein ladungsbalken im gui)
+ - vielleicht rechts unten neben der inventarleiste eingeblendet?
+ - werden beim wirken von zaubern verbraucht
+ - können irgendwie aufgeladen werden und werden mit rüstung regeneriert (siehen unten)
+ 
 
-Armor:
-    -Schützt vor Schadensaura von späteren Maschinen
-    -Verstärkt Zauber vom eigenen Element
-    -Aufladen der Manabar des Elements.
+rüstung: 
+ - setbonus: wenn man 4 gleichartige rüstungsteile trägt werden entsprechende zauber verstärkt
+ - immunität gegen aura von soul catcher blöcken oder so
+ - bonusregeneration des angezogenen elements
+   - NICHT linearer regenerationsbonus
+   - bei einem angezogenen rüstungsteil: +1 regeneration
+   - bei zwei angezogenen rüstungsteilen: +5 regeneration
+   -  "  drei      "             "      : +15 regeneration
+   -  "  vier      "             "      : +30 regeneration
+   - dadurch erweiterte spezialisierung auf ein bestimmtes element
+   
