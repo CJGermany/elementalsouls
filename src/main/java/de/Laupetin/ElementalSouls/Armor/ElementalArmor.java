@@ -14,7 +14,8 @@ public abstract class ElementalArmor extends ItemArmor {
 
 	public abstract String getElement();
 	
-	public int getBaseManaRegen(short anzahl){
+	// Welche Ladung wird regeneriert?
+	public int getBaseManaRegen(short amount){
 		
 	
 		return 0;

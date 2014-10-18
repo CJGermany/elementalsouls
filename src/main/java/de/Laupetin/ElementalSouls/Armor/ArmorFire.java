@@ -4,9 +4,9 @@ import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 
-public class Armor_Fire extends ElementalArmor {
+public class ArmorFire extends ElementalArmor {
 
-	public Armor_Fire(ArmorMaterial m, int i) {
+	public ArmorFire(ArmorMaterial m, int i) {
 		super(m, i);
 		setMaxStackSize(1);
 		

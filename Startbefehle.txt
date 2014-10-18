@@ -1,2 +1,3 @@
-gradlew setupDecompWorkspace --refresh-dependencies
-gradlew eclipse
+gradlew setupDecompWorkspace --refresh-dependencies      // Initialer Befehl um Workspace zu erstellen
+gradlew eclipse                                          // Woher soll ich wissen, was der Befehl macht
+gradlew build                                            // Projekt als .jar exportieren (siehe \build\libs\)

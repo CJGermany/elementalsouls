@@ -57,7 +57,20 @@ public class ElementalSouls
     public static ElementalArmor vArmorLeggingsFire;
     public static ElementalArmor vArmorBootsFire;
     
+    public static ElementalArmor vArmorHelmetWater;
+    public static ElementalArmor vArmorChestplateWater;
+    public static ElementalArmor vArmorLeggingsWater;
+    public static ElementalArmor vArmorBootsWater;
     
+    public static ElementalArmor vArmorHelmetEarth;
+    public static ElementalArmor vArmorChestplateEarth;
+    public static ElementalArmor vArmorLeggingsEarth;
+    public static ElementalArmor vArmorBootsEarth;
+    
+    public static ElementalArmor vArmorHelmetAir;
+    public static ElementalArmor vArmorChestplateAir;
+    public static ElementalArmor vArmorLeggingsAir;
+    public static ElementalArmor vArmorBootsAir;
     
     /**
      
@@ -122,20 +135,47 @@ public class ElementalSouls
 		vSoulAir = new ItemSoul('a');
 		GameRegistry.registerItem(vSoulAir, "SoulAir");
 
-		vArmorHelmetFire = new Armor_Fire(ArmorMaterial.DIAMOND,0);
+		vArmorHelmetFire = new ArmorFire(ArmorMaterial.DIAMOND,0);
 		GameRegistry.registerItem(vArmorHelmetFire, "ES_Armor_Helmet_Fire");
-		vArmorChestplateFire = new Armor_Fire(ArmorMaterial.DIAMOND,1);
+		vArmorChestplateFire = new ArmorFire(ArmorMaterial.DIAMOND,1);
 		GameRegistry.registerItem(vArmorChestplateFire, "ES_Armor_Chestplate_Fire");
-		vArmorLeggingsFire = new Armor_Fire(ArmorMaterial.DIAMOND,2);
+		vArmorLeggingsFire = new ArmorFire(ArmorMaterial.DIAMOND,2);
 		GameRegistry.registerItem(vArmorLeggingsFire, "ES_Armor_Leggings_Fire");
-		vArmorBootsFire = new Armor_Fire(ArmorMaterial.DIAMOND,3);
+		vArmorBootsFire = new ArmorFire(ArmorMaterial.DIAMOND,3);
 		GameRegistry.registerItem(vArmorBootsFire, "ES_Armor_Boots_Fire");
+		
+		vArmorHelmetWater = new ArmorWater(ArmorMaterial.DIAMOND,0);
+		GameRegistry.registerItem(vArmorHelmetWater, "ES_Armor_Helmet_Water");
+		vArmorChestplateWater = new ArmorWater(ArmorMaterial.DIAMOND,1);
+		GameRegistry.registerItem(vArmorChestplateWater, "ES_Armor_Chestplate_Water");
+		vArmorLeggingsWater = new ArmorWater(ArmorMaterial.DIAMOND,2);
+		GameRegistry.registerItem(vArmorLeggingsWater, "ES_Armor_Leggings_Water");
+		vArmorBootsWater = new ArmorWater(ArmorMaterial.DIAMOND,3);
+		GameRegistry.registerItem(vArmorBootsWater, "ES_Armor_Boots_Water");
+		
+		vArmorHelmetAir = new ArmorAir(ArmorMaterial.DIAMOND,0);
+		GameRegistry.registerItem(vArmorHelmetAir, "ES_Armor_Helmet_Air");
+		vArmorChestplateAir = new ArmorAir(ArmorMaterial.DIAMOND,1);
+		GameRegistry.registerItem(vArmorChestplateAir, "ES_Armor_Chestplate_Air");
+		vArmorLeggingsAir = new ArmorAir(ArmorMaterial.DIAMOND,2);
+		GameRegistry.registerItem(vArmorLeggingsAir, "ES_Armor_Leggings_Air");
+		vArmorBootsAir = new ArmorAir(ArmorMaterial.DIAMOND,3);
+		GameRegistry.registerItem(vArmorBootsAir, "ES_Armor_Boots_Air");
+		
+		vArmorHelmetEarth = new ArmorEarth(ArmorMaterial.DIAMOND,0);
+		GameRegistry.registerItem(vArmorHelmetEarth, "ES_Armor_Helmet_Earth");
+		vArmorChestplateEarth = new ArmorEarth(ArmorMaterial.DIAMOND,1);
+		GameRegistry.registerItem(vArmorChestplateEarth, "ES_Armor_Chestplate_Earth");
+		vArmorLeggingsEarth = new ArmorEarth(ArmorMaterial.DIAMOND,2);
+		GameRegistry.registerItem(vArmorLeggingsEarth, "ES_Armor_Leggings_Earth");
+		vArmorBootsEarth = new ArmorEarth(ArmorMaterial.DIAMOND,3);
+		GameRegistry.registerItem(vArmorBootsEarth, "ES_Armor_Boots_Earth");
     	
     	
     }
     
     private void registerRecipes(){
-    	/**GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond,1), Blocks.dirt, Blocks.dirt);*/
+    	//GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond,1), Blocks.dirt, Blocks.dirt);
     
     }
 }
