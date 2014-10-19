@@ -6,7 +6,7 @@ import de.Laupetin.ElementalSouls.Event.ESRenderTickReceiver;
 
 public abstract class ESHUD implements ESRenderTickReceiver{
 	
-	public static ESHUD skillbar = new hudskillbar();
+	public static ESHUD skillBar = new HudSkillBar();
 	
 	public abstract void render();
 	
@@ -20,7 +20,7 @@ public abstract class ESHUD implements ESRenderTickReceiver{
 	
 	public static void registerHUDs(){
 		if (ElementalSouls.proxy.getSide() == Side.CLIENT){
-			ElementalSouls.proxy.getRenderTickHandler().registerRenderTickReceiver(skillbar);
+			ElementalSouls.proxy.getRenderTickHandler().registerRenderTickReceiver(skillBar);
 			
 		}
 	}
