@@ -30,9 +30,8 @@ public class ESClientProxy extends ESCommonProxy {
 	@Override
 	public void initialize(){
 		super.initialize();
-		ESRenderTickHandler esrth = new ESRenderTickHandler(Minecraft.getMinecraft());
-		renderTickHandler = esrth;
-		FMLCommonHandler.instance().bus().register(esrth);
+		renderTickHandler = new ESRenderTickHandler(Minecraft.getMinecraft());
+		FMLCommonHandler.instance().bus().register(renderTickHandler);
 	}
 	
 }

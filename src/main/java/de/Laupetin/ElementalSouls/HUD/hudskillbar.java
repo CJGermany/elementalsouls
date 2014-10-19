@@ -7,7 +7,7 @@ public class hudskillbar extends ESHUD {
 	
 	@Override
 	public void render() {
-		System.out.println("Render");
+		//System.out.println("Render");
 	}
 
 	@Override
