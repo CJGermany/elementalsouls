@@ -3,7 +3,7 @@ package de.Laupetin.ElementalSouls.Proxies;
 import net.minecraft.client.Minecraft;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.relauncher.Side;
-import de.Laupetin.ElementalSouls.HUD.ESRenderTickHandler;
+import de.Laupetin.ElementalSouls.ESRenderTickHandler;
 
 public class ESClientProxy extends ESCommonProxy {
 

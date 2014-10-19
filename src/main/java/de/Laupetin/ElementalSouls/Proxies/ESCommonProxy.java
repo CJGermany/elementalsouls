@@ -1,7 +1,7 @@
 package de.Laupetin.ElementalSouls.Proxies;
 
 import cpw.mods.fml.relauncher.Side;
-import de.Laupetin.ElementalSouls.HUD.ESRenderTickHandler;
+import de.Laupetin.ElementalSouls.ESRenderTickHandler;
 
 public class ESCommonProxy {
 

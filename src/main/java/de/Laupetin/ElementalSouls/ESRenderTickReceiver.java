@@ -1,4 +1,4 @@
-package de.Laupetin.ElementalSouls.HUD;
+package de.Laupetin.ElementalSouls;
 
 public interface ESRenderTickReceiver {
 
