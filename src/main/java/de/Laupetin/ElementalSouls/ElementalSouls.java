@@ -22,6 +22,7 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 import de.Laupetin.ElementalSouls.Armor.*;
 import de.Laupetin.ElementalSouls.Blocks.SoulBlocks.*;
 import de.Laupetin.ElementalSouls.Event.*;
+import de.Laupetin.ElementalSouls.HUD.ESHUD;
 import de.Laupetin.ElementalSouls.Items.*;
 import de.Laupetin.ElementalSouls.Proxies.ESCommonProxy;
 
@@ -121,6 +122,7 @@ public class ElementalSouls
     {
     	ESEventHandler eventhandle = new ESEventHandler();
     	MinecraftForge.EVENT_BUS.register(eventhandle);
+    	ESHUD.registerHUDs();
     	//FMLCommonHandler.instance().bus().register(eventhandle);
     	
     }
