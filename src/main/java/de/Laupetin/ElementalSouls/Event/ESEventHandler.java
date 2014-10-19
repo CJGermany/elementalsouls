@@ -37,7 +37,7 @@ public class ESEventHandler {
 	
 	@SubscribeEvent
 	public void onPlayerTick(PlayerTickEvent event){
-		System.out.println("PlayerTick");
+		//System.out.println("PlayerTick");
 		boolean waterWalk = false;	// Ist WaterWalk im Moment aktiviert?
 		double waterMana = 100;	// wie viel Wasserladung hat der Spieler aktuell?
 		double ticksPerSecond = 20;	// Wie kann man die sonst abfragen? Bei overload sind die ja nicht immer ganz stabil...
@@ -52,18 +52,20 @@ public class ESEventHandler {
 			World world = event.player.worldObj;
 			
 			int x = MathHelper.floor_double(event.player.posX);
-			int y = MathHelper.floor_double(event.player.boundingBox.minY - 1);
+			int y = MathHelper.floor_double(event.player.boundingBox.minY - 0.16);
 			int z = MathHelper.floor_double(event.player.posZ);
 			
 			Material maybeWater = world.getBlock(x, y, z).getMaterial();
 			
 			boolean water = (maybeWater == Material.water);
 			
-			if (water && (event.player.motionY < 0.0D)) {
-				event.player.posY += -event.player.motionY;
+			if (water && (event.player.motionY < 0.0D)) { //alles behindert, hab jetzt auch grad keine lust mehr, mach ich irgendwann anders...
+				//event.player.posY += -event.player.motionY;
+				//event.player.setPositionAndUpdate(event.player.posX, event.player.posY, event.player.posZ);
+				//event.player.setVelocity(event.player.motionX, event.player.motionY, event.player.motionZ);
 				event.player.motionY = 0.0D;
-				event.player.fallDistance = 0.0F;
-				// player.setMana("water", waterMana-(waterWalkManaConsumption/ticksPerSecond))
+				//event.player.fallDistance = 0.0F;
+				//player.setMana("water", waterMana-(waterWalkManaConsumption/ticksPerSecond))
 			}
 		}
 		
