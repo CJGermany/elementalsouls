@@ -1,31 +1,48 @@
-initialisation:
+Initialisation:
  - 4 elemente (wasser, feuer, erde, luft)
  - können bekommen werden, indem man sich seelen (perlen?) implantiert
    - implantate können auf einer table ähnlich einem bett gemacht werden
- - sobald man eines der elemente bekommen hat, wird ein (kleiner) ladungsbalken irgendwo im gui eingeblendet
-   - zuanfangs leer, kann aber aufgeladen werden (siehe unten)
- - beim erlernen eines elements fähigkeiten auflisten
+ - sobald man eines der Elemente bekommen hat, wird ein (kleiner) Ladungsbalken irgendwo im HUD eingeblendet
+   - zu Anfangs leer, kann aber aufgeladen werden (siehe unten)
+ - beim Erlernen eines Elements Fähigkeiten auflisten
  
- skills:
-  - erlernen von fähigkeiten (basierend auf den elementen)
-  - erlernen kostet XP (oder?)
-  - fähigkeiten (= zauber) verbrauchen ladung (siehe unten)
+ 
+ Skills:
+  - Erlernen von Fähigkeiten (basierend auf den Elementen)
+  - Erlernen kostet XP (oder?)
+  - Fähigkeiten (= Zauber) verbrauchen Ladung (siehe unten)
 
-ladung:
- - 4 seperate ladungen (je element ein ladungsbalken im gui)
- - vielleicht rechts unten neben der inventarleiste eingeblendet?
- - werden beim wirken von zaubern verbraucht
- - können irgendwie aufgeladen werden und werden mit rüstung regeneriert (siehen unten)
+
+Ladung:
+ - 4 seperat gelistete Ladungen (je Element ein Ladungsbalken im HUD)
+ - Rechts und links am Bildschirmrand
+ - Werden beim wirken von Zaubern verbraucht
+ - Können irgendwie aufgeladen werden und werden zusätzlich mit Rüstung regeneriert (siehen unten)
  
 
-rüstung: 
- - setbonus: wenn man 4 gleichartige rüstungsteile trägt werden entsprechende zauber verstärkt
- - immunität gegen aura von soul catcher blöcken oder so
- - bonusregeneration des angezogenen elements
-   - NICHT linearer regenerationsbonus
-   - bei einem angezogenen rüstungsteil: +1 regeneration
-   - bei zwei angezogenen rüstungsteilen: +5 regeneration
-   -  "  drei      "             "      : +15 regeneration
-   -  "  vier      "             "      : +30 regeneration
-   - dadurch erweiterte spezialisierung auf ein bestimmtes element
-   
+Rüstung: 
+ - Setbonus: Wenn man 4 gleichartige Rüstungsteile trägt werden entsprechende Zauber verstärkt
+ - Immunität gegen Aura von "soul catcher" Blöcken
+ - Bonusregeneration des angezogenen elements
+   - NICHT linearer Regenerationsbonus:
+   - regenerationRate = (((2^amount)/(amount+1))*amount)*2
+   - amount = 1: 2
+   - amount = 2: 5.3
+   - amount = 3: 12
+   - amount = 4: 25.6
+   - dadurch erweiterte Spezialisierung auf ein bestimmtes Element
+
+
+Zauber: (Werden bei gedrückter Alt-Taste + Mausklick erzeugt)
+ - Element Wasser
+   - WaterWalk: auf dem Wasser laufen (verbraucht wenig, ist nämlich nicht wirklich OP)
+   - Dive: Unterwasser besser sehen, schneller fortbewegen, kein Sauerstoffbedarf
+   - Waterball: Analog zum Fireball, aber slowt bei Treffer und löscht brennende Objekte und löscht Feuer in 3³ Umkreis
+ - Element Feuer
+   - FireBall: Entzündet bei Treffer, entzündet Umgebung
+   - FireImmunity: Selbsterklärend
+ - Element Luft:
+   - Flight: ...
+   - WindWalk: ...
+ - Element Erde:
+   - 
