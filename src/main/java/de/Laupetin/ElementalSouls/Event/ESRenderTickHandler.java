@@ -1,4 +1,4 @@
-package de.Laupetin.ElementalSouls;
+package de.Laupetin.ElementalSouls.Event;
 
 import java.util.*;
 

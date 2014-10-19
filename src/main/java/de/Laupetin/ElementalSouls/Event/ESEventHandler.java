@@ -7,7 +7,6 @@ import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.TickEvent.ClientTickEvent;
 import cpw.mods.fml.common.gameevent.TickEvent.ServerTickEvent;
 import cpw.mods.fml.relauncher.Side;
-import de.Laupetin.ElementalSouls.ESRenderTickReceiver;
 import net.minecraft.client.Minecraft;
 
 public class ESEventHandler {

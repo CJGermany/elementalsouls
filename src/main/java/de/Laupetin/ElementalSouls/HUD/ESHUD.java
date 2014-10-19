@@ -2,6 +2,7 @@ package de.Laupetin.ElementalSouls.HUD;
 
 import cpw.mods.fml.relauncher.Side;
 import de.Laupetin.ElementalSouls.*;
+import de.Laupetin.ElementalSouls.Event.ESRenderTickReceiver;
 
 public abstract class ESHUD implements ESRenderTickReceiver{
 	
