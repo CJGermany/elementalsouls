@@ -6,5 +6,4 @@ public enum EnumElement {
 	WATER,
 	EARTH,
 	AIR;
-	
 }

@@ -19,6 +19,19 @@ public abstract class ElementalSkill {
 	
 	public void setUnlocalizedName(String s){unlocalizedName = s;}
 	
-	public String getSkillName(){return LanguageRegistry.instance().getStringLocalization("skill." + unlocalizedName + ".name");}
+	public String getUnlocalizedName(){return unlocalizedName;}
+	
+	public String getSkillName(){
+		return LanguageRegistry.instance().getStringLocalization("skill." + unlocalizedName + ".name");
+	}
+	
+	public void registerSkill(){	
+	
+	}
+	
+	public boolean isValid(){
+		if (unlocalizedName != "" && getElement() != null) {return false;} else {return true;}
+	}
 
+	
 }

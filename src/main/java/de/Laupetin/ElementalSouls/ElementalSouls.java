@@ -25,6 +25,7 @@ import de.Laupetin.ElementalSouls.Event.*;
 import de.Laupetin.ElementalSouls.HUD.ESHUD;
 import de.Laupetin.ElementalSouls.Items.*;
 import de.Laupetin.ElementalSouls.Proxies.ESCommonProxy;
+import de.Laupetin.ElementalSouls.Skills.*;
 
 @Mod(modid = ElementalSouls.MODID, version = ElementalSouls.VERSION)
 public class ElementalSouls
@@ -114,7 +115,7 @@ public class ElementalSouls
     {
 		proxy.registerRenderers();
 		registerRecipes();
-		
+		new ElementalSkillRegistry();
     }
     
     @EventHandler
