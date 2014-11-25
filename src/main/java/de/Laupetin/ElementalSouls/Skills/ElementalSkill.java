@@ -26,11 +26,15 @@ public abstract class ElementalSkill {
 	}
 	
 	public void registerSkill(){	
-	
+		ElementalSkillRegistry.instance().registerSkill(this);
 	}
 	
 	public boolean isValid(){
 		if (unlocalizedName != "" && getElement() != null) {return false;} else {return true;}
+	}
+	
+	public String getImagePath(){
+		return "textures/hud/skills/" + getElement().toString() + "/" + getUnlocalizedName();
 	}
 
 	
