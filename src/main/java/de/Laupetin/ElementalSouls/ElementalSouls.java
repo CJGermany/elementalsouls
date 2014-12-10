@@ -26,6 +26,7 @@ import de.Laupetin.ElementalSouls.HUD.ESHUD;
 import de.Laupetin.ElementalSouls.Items.*;
 import de.Laupetin.ElementalSouls.Proxies.ESCommonProxy;
 import de.Laupetin.ElementalSouls.Skills.*;
+import de.Laupetin.ElementalSouls.Skills.Air.SkillFlying;
 
 @Mod(modid = ElementalSouls.MODID, version = ElementalSouls.VERSION)
 public class ElementalSouls
@@ -107,7 +108,8 @@ public class ElementalSouls
 		registerItems();
 		registerBlocks();
 		 
-		 
+		new ESPlayerDatabase();
+		SkillFlying.skill().toString();
     }
     
     @EventHandler

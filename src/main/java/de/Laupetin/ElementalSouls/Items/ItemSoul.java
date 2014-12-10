@@ -5,11 +5,17 @@ import java.util.Random;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.relauncher.Side;
+import de.Laupetin.ElementalSouls.ESPlayerDatabase;
 import de.Laupetin.ElementalSouls.ElementalSouls;
+import de.Laupetin.ElementalSouls.Skills.ElementalSkillRegistry;
+import de.Laupetin.ElementalSouls.Skills.Air.SkillFlying;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.item.EntityItem;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.world.World;
 import net.minecraftforge.transformers.ForgeAccessTransformer;
 
 public class ItemSoul extends Item {
@@ -81,7 +87,12 @@ public class ItemSoul extends Item {
 		return super.onEntityItemUpdate(entityItem);
 	}
 	
-	
+	@Override
+	public ItemStack onItemRightClick(ItemStack p_77659_1_, World p_77659_2_,
+			EntityPlayer p_77659_3_) {
+		ESPlayerDatabase.instance().getPlayerData(p_77659_3_).getActiveSkills().add(SkillFlying.skill());
+		return super.onItemRightClick(p_77659_1_, p_77659_2_, p_77659_3_);
+	}
 	
 	
 }

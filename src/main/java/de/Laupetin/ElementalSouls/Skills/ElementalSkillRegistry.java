@@ -17,6 +17,9 @@ public class ElementalSkillRegistry {
 	}
 	
 	public static ElementalSkillRegistry instance(){
+		if (instance == null){
+			new ElementalSkillRegistry();
+		}
 		return instance;
 	}
 	
